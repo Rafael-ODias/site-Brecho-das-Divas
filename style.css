@@ -1,0 +1,52 @@
+
+
+body {
+    text-align: center;
+    background-color: #ff90b1;
+    color: black
+    font-family: Lucida Bright;
+    font-size: 17pt;
+
+}
+
+h1 {
+    text-align: center; 
+    font-family: Lucida Bright;
+    font-size: 30pt;
+    color: rgb(2, 3, 29);
+    text-shadow: 3px 3px 3px;
+}
+
+h3 {
+    
+    font-family: Lucida Bright;
+    font-size: 15pt;
+    color: rgb(29, 2, 2);
+}
+
+footer {
+    color: rgb(46, 42, 42);
+    font-family: Lucida Bright;
+    font-size: 60%;
+    text-shadow: 1px 1px 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+* {
+    margin: 500;
+    padding: 300;
+    box-sizing: border-box;
+}
+
+#resizeButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
